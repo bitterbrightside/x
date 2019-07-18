@@ -1,0 +1,40 @@
+#header {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 200%;
+    padding-top: 50px;
+}
+
+#divider{
+    position:absolute;
+    width: 90%;
+    margin-left: 60px;
+    padding-top: 10px;
+    border-bottom:1px solid black;
+}
+
+#submenu {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 120%;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+#analog{
+    float: left;
+    margin-left: 800px;
+    position: fixed;
+}
+
+#digital {
+    float: left;
+    margin-left: 900px;
+    position: fixed;
+}
+
+
+
+#digital {
+    padding-left: 10px;
+}
