@@ -1,0 +1,93 @@
+#header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#divider{
+    position:absolute;
+    width: 90%;
+    margin-left: 60px;
+    padding-top: 10px;
+    border-bottom:1px solid black;
+}
+
+#submenu {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 120%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+
+
+#subtext {
+    text-align: center;
+    font-size: 110%;
+    font-family: Georgia;
+    font-style: italic;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+
+.nav {
+    overflow: hidden;
+}
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia;
+    margin-top: 30px;
+    margin-left: 400px;
+    letter-spacing: 2px;
+}
+
+.nav a:hover {
+    color: darkgrey;
+}
+
+.nav a.active {
+    /*color: aquamarine;*/
+}
+
+.glyphicon {
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 200%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .av a:not(:first-child) {display: none;}
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@supports (position: sticky) {
+    @media (min-width: 680px) {
+        #navigation {
+            position: sticky;
+            top: 0;
+        }
+    }
+}

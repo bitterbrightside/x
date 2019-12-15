@@ -1,0 +1,41 @@
+.container {
+    width: 1600px !important;
+}
+
+
+#homePic {
+    padding-top: 10px;
+}
+
+#picRow1, #picRow2, #picRow3, #picRow4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-left: 150px;
+}
+
+
+#description {
+    font-family: Georgia;
+    font-size: 100%;
+    margin-left: 100px;
+}
+
+.row {
+    width: 1650px !important;
+    margin-left: -275px !important;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+img {
+    transition: transform .5s ease;
+}
+
+img:hover {
+    -ms-transform: scale(1.08); /* IE 9 */
+    -webkit-transform: scale(1.08); /* Safari 3-8 */
+    transform: scale(1.08);
+}
+
+

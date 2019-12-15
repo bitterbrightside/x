@@ -1,0 +1,39 @@
+.row {
+    width: 1500px;
+    margin-left: -200px !important;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.glyphicon {
+    font-size: 170% !important;
+}
+
+#description_header {
+    font-family: Georgia;
+    font-size: 80px;
+    font-style: italic;
+    margin-left: 50px;
+    border-bottom: 1px solid black;
+
+}
+
+#description_text {
+    margin-left: 20px;
+    font-size: 150%;
+    font-family: Georgia;
+    width: 600px;
+    padding: 10px;
+}
+
+#location, #time {
+    margin-left: 10px;
+}
+
+
+
+#text {
+    margin-left: -350px;
+    width: 1500px;
+}
+
